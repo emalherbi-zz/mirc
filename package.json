@@ -1,0 +1,39 @@
+{
+  "name": "mirc",
+  "version": "1.0.0",
+  "description": "Mirc",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mirc"
+  ],
+  "author": "Eduardo Malherbi Martins <emalherbi@gmail.com> (http://emalherbi.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-bower-task": "^0.5.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-gh-pages": "^4.0.0",
+    "grunt-html-minify": "^0.3.1",
+    "grunt-install-dependencies": "^0.2.0",
+    "grunt-mkdir": "^0.1.2",
+    "grunt-php-shield": "^1.0.2",
+    "grunt-rev": "^0.1.0",
+    "grunt-usemin": "^3.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "firebase": "^1.0.17",
+    "jquery": "^3.6.0",
+    "moment": "^2.18.1",
+    "popper.js": "1.14.3"
+  }
+}
