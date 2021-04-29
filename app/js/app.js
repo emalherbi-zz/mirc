@@ -145,7 +145,8 @@ var Mirc = {
     $('#chat')[0].scrollTop = $('#chat')[0].scrollHeight;
   },
   addNotificationMsg: function (user, msg, date, hour) {
-    if (Notification.permission === 'granted') {
+    console.log(Notification.permission)
+    if (Notification.permission === 'granted' && window.location.href !== "http://emalherbi.com/emm/mirc/") {
       new Notification('MIRC', {
         body: '[' + hour + '] <' + user + '> ' + msg,
       });
